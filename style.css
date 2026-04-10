@@ -1,85 +1,60 @@
-/* Global */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f9fbfd;   /* brighter background */
+    background: #f8fafc;
     color: #1f2937;
 }
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #4f46e5, #3b82f6);
+    background: linear-gradient(135deg, #2563eb, #6366f1);
     color: white;
-    padding: 50px 20px;
     text-align: center;
+    padding: 60px 20px;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 36px;
-}
-
-header p {
-    max-width: 700px;
-    margin: 15px auto 0;
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-/* Main content */
+/* Sections */
 main {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 0 20px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
 }
 
-/* Section title */
 h2 {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 28px;
+    margin-bottom: 20px;
 }
 
-/* Project cards */
-.project-card {
+/* Grid layout */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Cards */
+.card {
     background: white;
-    padding: 25px;
-    margin-bottom: 25px;
+    padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
 }
 
-/* Hover effect (important) */
-.project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
-}
-
-/* Project titles */
-.project-card h3 {
-    margin-top: 0;
-    color: #111827;
+.card:hover {
+    transform: translateY(-6px);
 }
 
 /* Links */
 a {
+    display: inline-block;
+    margin-top: 10px;
     color: #2563eb;
-    text-decoration: none;
     font-weight: bold;
+    text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
-/* Footer links fix */
-footer a {
-    color: #1d4ed8;   /* darker blue */
-    font-weight: 600;
-}
-
-footer a:hover {
-    color: #111827;   /* almost black on hover */
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
 }
