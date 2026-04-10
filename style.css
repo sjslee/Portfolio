@@ -69,8 +69,8 @@ footer {
 
 /* Profile image */
 .profile-img {
-    width: 100px;              /* bigger image */
-    height: 100px;
+    width: 160px;   /* bigger */
+    height: 160px;
     border-radius: 50%;        /* circle */
     object-fit: cover;
     border: 3px solid white;
