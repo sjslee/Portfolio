@@ -58,3 +58,28 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+/* Header layout (image + text side by side) */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;  /* keeps it centered overall */
+    gap: 20px;
+}
+
+/* Profile image */
+.profile-img {
+    width: 100px;              /* bigger image */
+    height: 100px;
+    border-radius: 50%;        /* circle */
+    object-fit: cover;
+    border: 3px solid white;
+
+    /* subtle shadow */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Text next to image */
+.header-text {
+    text-align: left;
+}
