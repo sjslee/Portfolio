@@ -64,6 +64,39 @@ This portfolio highlights some of my recent work in data analysis, econometrics,
             <a href="https://github.com/sjslee" target="_blank">github.com/sjslee</a>
         </p>
     </footer>
+  
+
+<div class="chatbot-launcher" id="chatbot-launcher">Chat</div>
+
+<div class="chatbot-popup hidden" id="chatbot-popup">
+  <div class="chatbot-header">
+    <h3>Portfolio Assistant</h3>
+    <button id="close-chatbot">&times;</button>
+  </div>
+
+  <div id="chat-messages" class="chat-box">
+    <div class="message bot">
+      Hi, I'm Shoua's portfolio assistant. Ask me about my resume, skills, or projects.
+    </div>
+  </div>
+
+  <div class="chat-input-area">
+    <input
+      id="chat-input"
+      type="text"
+      placeholder="Ask about my resume or projects..."
+    />
+    <button id="send-button">Send</button>
+  </div>
+
+  <div class="suggestions">
+    <button onclick="handleChatFromButton('Tell me about yourself')">About</button>
+    <button onclick="handleChatFromButton('Show me your resume')">Resume</button>
+    <button onclick="handleChatFromButton('What skills do you have')">Skills</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
-
