@@ -1,0 +1,33 @@
+{
+  "name": "Shoua Lee",
+  "about": "I am a data professional with experience in analytics, econometrics, machine learning, and credit risk modeling, with a focus on building practical, business-driven solutions.",
+  "resume_summary": "Currently, my portfolio includes projects in mortgage default modeling, customer satisfaction analysis, and data storytelling, with more projects continuously in development.",
+  "skills": [
+    "Python",
+    "SQL",
+    "R",
+    "Databricks",
+    "Econometrics",
+    "Machine Learning",
+    "Time Series Forecasting",
+    "Qualtrics",
+    "Data Visualization",
+    "Model Interpretation"
+  ],
+  "resume_link": "ShouaLee_26.pdf",
+  "github_link": "https://github.com/sjslee",
+  "projects": [
+    {
+      "name": "Wisconsin Mortgage PD Model",
+      "keywords": ["mortgage", "probability of default (pd)", "default", "risk", "credit"],
+      "summary": "Built a probability of default model to estimate 12-month mortgage default risk using traditional methods from Freddie Mac's mortgage origination and performance data.",
+      "tools": ["Python", "Logistic Regression", "WOE", "Calibration"]
+    },
+    {
+      "name": "Hotel Review PRA Analysis",
+      "keywords": ["hotel", "pra", "review", "customer satisfaction"],
+      "summary": "Used penalty-reward analysis to classify hotel attributes as basic factors, performance factors, or delighters.",
+      "tools": ["Python", "Regression", "penalty-reward analysis (PRA)"]
+    }
+  ]
+}
