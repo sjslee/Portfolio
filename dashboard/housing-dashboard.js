@@ -302,4 +302,3 @@ function formatCurrency(value) {
     maximumFractionDigits: 0
   }).format(value);
 }
-
