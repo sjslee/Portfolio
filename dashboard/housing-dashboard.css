@@ -230,3 +230,64 @@ th {
   }
 }
 
+.tag.unaffordable {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+@media (max-width: 900px) {
+  .top-grid,
+  .chart-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .plot-box {
+    min-height: 340px;
+  }
+}
+
+.insights-panel {
+  margin: 28px 0;
+}
+
+.insights-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.insight-card {
+  background: white;
+  padding: 18px 20px;
+  border-radius: 14px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  border: 1px solid #e5e7eb;
+}
+
+.insight-card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.insight-card ol {
+  margin: 0;
+  padding-left: 22px;
+}
+
+.insight-card li {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.insight-card p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .insights-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
