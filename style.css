@@ -15,7 +15,7 @@ header {
 
 /* Sections */
 main {
-    max-width: 1000px;
+    max-width: 1300px;
     margin: auto;
     padding: 30px;
 }
@@ -38,7 +38,9 @@ h2 {
     border-radius: 12px;
     box-shadow: 0 6px 15px rgba(0,0,0,0.08);
     transition: 0.3s;
+    min-width: 0;
 }
+
 
 .card:hover {
     transform: translateY(-6px);
